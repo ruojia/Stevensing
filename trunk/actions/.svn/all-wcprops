@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/480/trunk/actions
+END
+checkProfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/457/trunk/actions/checkProfile.php
+END
+getCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/447/trunk/actions/getCourseAction.php
+END
+searchAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/472/trunk/actions/searchAction.php
+END
+editProfileAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/467/trunk/actions/editProfileAction.php
+END
+deleteBlogAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/447/trunk/actions/deleteBlogAction.php
+END
+deleteStatusAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/447/trunk/actions/deleteStatusAction.php
+END
+editCommentAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/369/trunk/actions/editCommentAction.php
+END
+addCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/447/trunk/actions/addCourseAction.php
+END
+logoutAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/447/trunk/actions/logoutAction.php
+END
+addReviewAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/462/trunk/actions/addReviewAction.php
+END
+addCommentAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/459/trunk/actions/addCommentAction.php
+END
+leaveCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/447/trunk/actions/leaveCourseAction.php
+END
+getReviewByCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/447/trunk/actions/getReviewByCourseAction.php
+END
+joinCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/447/trunk/actions/joinCourseAction.php
+END
+changePictureAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/447/trunk/actions/changePictureAction.php
+END
+header_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/312/trunk/actions/header_action.php
+END
+denyFriendAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/476/trunk/actions/denyFriendAction.php
+END
+acceptFriendAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/444/trunk/actions/acceptFriendAction.php
+END
+deleteFriendAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/447/trunk/actions/deleteFriendAction.php
+END
+addBlogAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/462/trunk/actions/addBlogAction.php
+END
+addStatusAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/462/trunk/actions/addStatusAction.php
+END
+mysqli_connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/160/trunk/actions/mysqli_connection.php
+END
+deleteEventListAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/369/trunk/actions/deleteEventListAction.php
+END
+getFriendListAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/447/trunk/actions/getFriendListAction.php
+END
+getResourceByCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/447/trunk/actions/getResourceByCourseAction.php
+END
+editCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/447/trunk/actions/editCourseAction.php
+END
+editReviewAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/459/trunk/actions/editReviewAction.php
+END
+loginAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/458/trunk/actions/loginAction.php
+END
+getEventByEntityAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/369/trunk/actions/getEventByEntityAction.php
+END
+getStatusByEntityAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/447/trunk/actions/getStatusByEntityAction.php
+END
+getBlogByUserAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/447/trunk/actions/getBlogByUserAction.php
+END
+uploadPictureAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/447/trunk/actions/uploadPictureAction.php
+END
+requestFriendAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/447/trunk/actions/requestFriendAction.php
+END
+getCommentByFeedAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/369/trunk/actions/getCommentByFeedAction.php
+END
+registerAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/459/trunk/actions/registerAction.php
+END
+deleteReviewAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/447/trunk/actions/deleteReviewAction.php
+END
+deleteCommentAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/369/trunk/actions/deleteCommentAction.php
+END
+addEventListAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/369/trunk/actions/addEventListAction.php
+END
+editEventAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/369/trunk/actions/editEventAction.php
+END
+getAllCourseAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/467/trunk/actions/getAllCourseAction.php
+END
+editBlogAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/459/trunk/actions/editBlogAction.php
+END
+editStatusAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/459/trunk/actions/editStatusAction.php
+END
+getProfileByUserAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/447/trunk/actions/getProfileByUserAction.php
+END
+addEventAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/447/trunk/actions/addEventAction.php
+END
+getCourseListAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/447/trunk/actions/getCourseListAction.php
+END
+footer_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/436/trunk/actions/footer_action.php
+END
+datas.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/162/trunk/actions/datas.php
+END

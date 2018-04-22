@@ -1,0 +1,142 @@
+.advanced_search{
+padding: 20px 10px;
+margin: 10px 10px;
+font-family:Georgia,serif;
+font-size:16px;
+ /*color:#660000;*/
+}
+
+.form_search label {
+padding-left: 10px;
+font-family:Verdana,sans-serif;
+font-weight:bold;
+padding-bottom: 5px; 
+display: inline;
+}
+.form_search>fieldset{
+      border:1px solid ;
+      padding:0 20px;
+}
+.form_search>legend{
+      font-family:arial,sans-serif;
+      font-weight:bold;
+      font-size:110%;
+      color:#666;
+      border:1px solid #ccc;
+      border-bottom-color:#999;
+      border-right-color:#999;
+      padding:4px 8px;
+}   
+
+
+.form_search input.button{
+margin-left: 400px;
+margin-bottom: 30px;
+padding-right: 10px;	
+background-color: #999999;
+border: 1px solid #222;
+border-radius: 6px;
+padding: 3px;
+color: #FFF;
+font-size: 15px;
+font-weight: bolder;
+}
+.form_search input.button:hover{
+	background-color: #a9002f;
+}
+
+.form_search select{
+	margin-top: 10px;
+
+}
+
+
+.search_list {
+padding: 20px 10px;
+margin: 10px 10px;
+font-family:Georgia,serif;
+font-size:16px;
+}
+.search_list h1{
+	font-size: 20px;
+}
+.search_list span{
+	font-size: 16px
+}
+.search_list select{
+	margin-left: 5px;
+	font-size: 16px;
+	padding:5px; 
+	background:transparent; 
+	width:100px; 
+	border:1px solid #999; 
+	height:30px;
+	
+}
+
+#course_search_list{
+	padding: 20px 10px;
+}
+
+#course_search_list h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+#course_search_list span{
+	font-size: 16px;
+	line-height: 50px;
+}
+
+#course_search_list select{
+	margin-left: 5px;
+	font-size: 16px;
+	padding:5px; 
+	background:transparent; 
+	width:100px; 
+	border:1px solid #999; 
+	height:30px;
+	
+}
+#course_search_list ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#course_search_list ul li{
+	display: inline-block;
+	padding: 5px 0px;
+}
+
+
+
+#course_search_list ul li>div{
+	float: left;
+	width: 350px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.buttonCourse a{
+
+	font-size: 16px;
+	float: right;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	width:60px;
+	height:30px;
+	margin: 10px 10px 10px 10px ;
+	line-height: 30px;
+	margin-left: 65px;
+
+	
+	 
+}
+.buttonCourse a:hover{
+color:#FFF;
+background-color: #a9002f;
+
+}
+
+
+

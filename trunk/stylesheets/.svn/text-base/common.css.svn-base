@@ -1,0 +1,590 @@
+body{
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+a, a:hover, a:visited, a:link{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	color: #a9002f;
+}
+
+textarea{	
+	resize: none;
+}
+
+.input-append>.add-on{
+	margin-top: 7px;
+}
+
+.content header{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #F4F4F4;
+	text-align: center;
+	z-index: 50;
+	-webkit-box-shadow: 0 1px 4px #CCC;
+	-moz-box-shadow: 0 1px 4px #CCC;
+	box-shadow: 0 1px 4px #CCC;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+.content>.container{
+	position: relative;
+	top: 60px;
+}
+
+#stevensing_logo{
+	background: url("../images/logo2.png") no-repeat;
+	margin-top: 10px;
+	height: 46px;
+	border: 0px;
+}
+
+#login_bar{
+	height: 60px;
+	text-align: right;
+}
+
+#login_bar div{
+	display: inline-block;
+	text-align: left;
+	margin: 10px 10px 0px 0px;
+}
+
+#login_bar div label{
+	font-size: 14px;
+	padding-left: 2px;
+}
+
+#login_bar div a{
+	color: #666666;
+	font-size: 12px;
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+#login_bar div a:hover, #login_bar div a:focus{
+	color: #a9002f;
+}
+
+#login_bar div input{
+	display: block;
+	font-size: 14px;
+	margin: 0px;
+	border-radius: 6px;
+	padding: 2px 6px;
+	margin: 2px 5px 2px 2px;
+}
+
+#login_bar div input:focus{
+	border: 3px solid lightblue;
+	margin: 0px 3px 0px 0px;
+}
+
+#login_bar div input[type="submit"]{
+	font-weight: bold;
+	color: #000;
+	background-color: #DDD;
+}
+
+#login_bar div input[type="submit"]:hover, #login_bar div input[type="submit"]:focus{
+	color: #a9002f;
+}
+
+.big_title{
+	padding: 20px 0px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+#big_logo{
+	width: 500px;
+}
+
+#quick_sign{
+	 /*border-radius: 14px;*/
+	 border-left: 1px solid #a9002f;
+	 padding: 10px 0px 10px 83px;
+}
+
+#quick_sign h1{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#quick_sign form label{
+	display: block;
+
+}
+
+#quick_sign form input{
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px;
+	border-radius: 6px;
+	padding: 2px 6px;
+	margin: 2px 5px 16px 2px;
+}
+
+#quick_sign form input:focus{
+	border: 3px solid lightblue;
+	margin: 0px 3px 14px 0px;
+}
+
+#quick_sign form input[type="submit"]{
+	width: 100px;
+	height: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	background: #DDD;
+	margin-left: 30px; 
+}
+
+#quick_sign form input[type="submit"]:hover, #quick_sign form input[type="submit"]:focus{
+	color: #a9002f;
+}
+
+#main_menu{
+	height: 60px;
+}
+
+#main_menu ul{
+	list-style-type: none;
+	height: 60px;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+#main_menu ul li{
+	float: left;
+	width: 120px;
+	height: 60px;
+	line-height: 80px;
+	vertical-align: bottom;
+	font-size: 20px;
+	/*font-weight: bold;*/
+}
+
+#main_menu ul a.current li{
+	background-color: #a9002f;
+}
+
+#main_menu ul a:hover, #main_menu ul a:focus{
+	color: #a9002f;
+}
+
+#main_menu ul a.current{
+	color: #FFF;
+}
+
+#account_menu{
+	float: left;
+	height: 60px;
+	position: relative;
+	top: 22px;
+	/*line-height: 80px;
+	vertical-align: bottom;*/
+	font-size: 18px;
+}
+
+#account_menu:hover span{
+	color: #a9002f;
+}
+
+#account_menu:hover>ul{
+	opacity: 1;
+	display: block;
+}
+
+#account_menu_icon{
+	position: relative;
+	top: 5px;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url("../images/icon_drop.png") no-repeat 0px 0px;
+}
+
+#account_menu:hover #account_menu_icon{
+	background: url("../images/icon_drop.png") no-repeat 0px -24px;
+}
+
+#account_menu ul{
+	width: 154px;
+	opacity: 0;
+	display: none;
+	-webkit-transition: opacity .2s ease .1s;
+    -moz-transition: opacity .2s ease .1s;
+    -o-transition: opacity .2s ease .1s;
+    -ms-transition: opacity .2s ease .1s;
+    transition: opacity .2s ease .1s;
+	background: #FFF;
+	list-style-type: none;
+	border: 1px solid #D9DCE2;
+	padding: 0px;
+	margin-top: 7px;
+}
+
+#account_menu ul li{
+	padding: 10px 0px;
+	margin: 0px;
+	border-bottom: 1px solid #D9DCE2;
+	-webkit-transition: height .2s ease .1s;
+    -moz-transition: height .2s ease .1s;
+    -o-transition: height .2s ease .1s;
+    -ms-transition: height .2s ease .1s;
+    transition: height .2s ease .1s;
+}
+
+#account_menu ul a:nth-child(1) li{
+	background: url("../images/icon_settings.png") no-repeat;
+}
+
+#account_menu ul a:nth-child(1) li:hover{
+	background: url("../images/icon_settings.png") no-repeat 0px -48px;
+}
+
+#account_menu ul a:nth-child(2) li{
+	background: url("../images/icon_help.png") no-repeat;
+}
+
+#account_menu ul a:nth-child(2) li:hover{
+	background: url("../images/icon_help.png") no-repeat 0px -48px;
+}
+
+#account_menu ul a:nth-child(3) li{
+	background: url("../images/icon_exit.png") no-repeat;
+}
+#account_menu ul a:nth-child(3) li:hover{
+	background: url("../images/icon_exit.png") no-repeat 0px -48px;
+}
+
+#account_menu ul li:hover{
+	color: #a9002f;
+}
+
+
+#search_box{
+	height: 40px;
+	margin: 20px 0 0 0;
+	text-align: left;
+	/*line-height: 80px;
+	vertical-align: bottom;*/
+}
+
+#search_box input{
+	width: 145px;
+	height: 20px;
+	border-radius: 6px;
+	padding: 2px 6px;
+	font-weight: bolder;
+}
+
+#search_button{
+	background-color: #999999;/*#B7375B;*/
+	border: 1px solid #222;
+	border-radius: 6px;
+	padding: 3px;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+#search_button:hover{
+	background-color: #a9002f;
+}
+
+#leftside{
+	margin-right: 0px;
+}
+
+#profile_info{
+	border-bottom: 1px solid #D9DCE2;
+}
+
+#profile_picture{
+	width: 150px;
+	height: 150px;
+	color: #000;
+}
+
+#profile_picture>img{
+	padding: 10px 20px 10px 0px;
+	width: 130px;
+	height: 130px;
+}
+
+#edit_profile_picture{
+	font-size: 14px;
+	text-indent: 20px;
+	width: 80px;
+	height: 20px;
+	background: url("../images/icon_edit.png") no-repeat #FFF;
+	-webkit-box-shadow: 0 1px 4px #666;
+	-moz-box-shadow: 0 1px 4px #666;
+	box-shadow: 0 1px 4px #666;
+	z-index: 2;
+	opacity: 0;
+	position: relative;
+	top: -40px;
+	left: 25px;
+}
+
+#profile_picture:hover #edit_profile_picture{
+	opacity: 1;
+}
+
+#profile_name{
+	padding-right: 5px;
+	width: 150px;
+}
+#profile_name p{
+	display: inline;
+	text-align: left;
+	height: 20px;
+	padding: 2px 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#profile_edit{
+	padding: 10px 5px 10px 0px;
+	height: 30px;
+	font-size: 15px;
+	text-indent: 30px;
+	background: url("../images/icon_edit.png") no-repeat 5px 10px #FFF;
+}
+
+#left_tags ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	position: relative;
+	left: 5px;
+}
+
+#left_tags ul li{
+	height: 30px;
+	padding: 3px 0px;
+	margin: 5px 0px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	z-index: 1;
+	-webkit-box-shadow: 0 1px 4px #CCC;
+	-moz-box-shadow: 0 1px 4px #CCC;
+	box-shadow: 0 1px 4px #CCC;
+	border: 1px solid #CDCDCD;
+	border-right: 0px;
+	background: #FFF;
+}
+
+#left_tags ul li:hover{
+	background-color: #F4F4F4;
+}
+
+.left_tag_1, .left_tag_2, .left_tag_3, .left_tag_4, .left_tag_5, .left_tag_6{
+	position: relative;
+	top: 16px;
+	left: 155px;
+	float: left;
+	height: 36px;
+	width: 3px;
+	opacity: 1;
+	z-index: 3;
+	background-color: #FFF; 
+}
+
+.left_tag_1{
+	top: 16px;
+}
+
+.left_tag_2{
+	top: 59px;
+}
+
+.left_tag_3{
+	top: 102px;
+}
+
+.left_tag_4{
+	top: 145px;
+}
+
+.left_tag_5{
+	top: 188px;
+}
+
+.left_tag_6{
+	top: 231px;
+}
+
+.main_view{
+	border-left: 1px solid #D9DCE2;
+	margin-left: 5px;
+	padding-left: 4px;
+	border-right: 1px solid #D9DCE2;
+	margin-right: 5px;
+	padding-right: 4px;
+	min-height: 800px;
+	z-index: 2;
+}
+
+#rightside{
+}
+
+#friend_request{
+	padding: 10px 10px;
+}
+
+#friend_request h1{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#friend_request ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#friend_request ul li{
+	display: inline-block;
+	padding: 5px 0px;
+}
+
+#friend_request ul li img{
+	width: 40px;
+	float: left;
+	margin-right: 5px;
+}
+
+#friend_request ul li div:nth-child(2){
+	float: left;
+	width: 160px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#friend_request ul li div:nth-child(3){
+	padding-top: 4px;
+	float: left;
+	width: 165px;
+	font-size: 12px;
+}
+
+#friend_request ul li div:nth-child(3) button{
+	margin: 0px 5px 0px 0px;
+	padding: 0px 5px;
+	font-size: 12px;
+}
+
+#message{
+	padding: 10px 10px;
+}
+
+#message h1{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#message ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#message ul li{
+	display: inline-block;
+	margin: 5px 0px;
+	padding: 2px;
+	background: #f5f5f5;
+}
+
+#message ul li img{
+	width: 40px;
+	float: left;
+	margin-right: 5px;
+}
+
+#message ul li>div{
+	float: left;
+	width: 160px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#message ul li section{
+	float: left;
+	width: 160px;
+	font-size: 10px;
+}
+
+#message ul li section p{
+	margin: 0px;
+}
+
+
+#message ul li section>div a{
+	color: #a9002f;
+	padding-left: 20px;
+}
+
+#message ul li section>div a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	position: relative;
+	top: 60px;
+	margin-top: 40px; 
+}
+
+footer p{
+	text-align: center;
+}
+
+footer nav ul{
+	list-style-type: none;
+	height: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer nav ul a li{
+	float: left;
+	height: 20px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #D9DCE2;
+}
+
+footer nav ul a:last-child li{
+	border-right: 0px;
+}
+
+.check_message{
+  margin: 0px;
+  padding: 0px;
+  color: red;
+  height: 18px;
+}
+
+.preview{
+	width: 150px !important;
+	height: 150px !important;
+}
+
+.mini_picture{
+	width: 40px !important;
+	height: 40px !important;
+}

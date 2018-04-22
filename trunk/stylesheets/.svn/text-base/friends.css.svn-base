@@ -1,0 +1,73 @@
+#friend_list{
+	padding: 20px 10px;
+}
+
+#friend_list h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+#friend_list span{
+	font-size: 16px
+}
+
+#friend_list select{
+	margin-left: 5px;
+	font-size: 16px;
+	padding:5px; 
+	background:transparent; 
+	width:100px; 
+	border:1px solid #999; 
+	height:30px;
+	
+}
+#friend_list ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#friend_list ul li{
+	display: inline-block;
+	padding: 5px 0px;
+}
+
+#friend_list ul li img{
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+#friend_list ul li div:nth-child(2){
+	float: left;
+	width: 350px;
+	font-size: 13px;
+	font-weight: bold;
+}
+#friend_list ul li a{
+	font-size: 16px;
+	float: left;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	width:60px;
+	height:30px;
+	margin: 10px 0px;
+	line-height: 30px;
+	
+	 
+}
+#friend_list ul li a:hover{
+color:#FFF;
+background-color: #a9002f;
+
+}
+
+#friend_list ul li div:nth-child(3) button{
+
+	
+	margin: 0px 5px 0px 0px;
+	padding: 0px 5px;
+	font-size: 13px;
+	
+}

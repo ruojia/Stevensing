@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/291/trunk/admin
+END
+managecourselist.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/291/trunk/admin/managecourselist.php
+END
+managepictures.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/291/trunk/admin/managepictures.php
+END
+managevents.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/291/trunk/admin/managevents.php
+END
+manageusers.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/291/trunk/admin/manageusers.php
+END
+manageblogs.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/291/trunk/admin/manageblogs.php
+END
+manageventlist.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/291/trunk/admin/manageventlist.php
+END
+manageresources.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/291/trunk/admin/manageresources.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/277/trunk/admin/.htaccess
+END
+header.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/291/trunk/admin/header.php
+END
+managestatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/291/trunk/admin/managestatus.php
+END
+managecourses.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/291/trunk/admin/managecourses.php
+END
+manageProfiles.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/291/trunk/admin/manageProfiles.php
+END
+managereviews.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/291/trunk/admin/managereviews.php
+END
+footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/291/trunk/admin/footer.php
+END
+adminhome.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/291/trunk/admin/adminhome.php
+END

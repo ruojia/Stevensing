@@ -1,0 +1,3 @@
+RewriteEngine	on
+RewriteBase		/stevensing
+RewriteRule		^(.*).css$						./$1

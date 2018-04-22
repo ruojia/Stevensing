@@ -1,0 +1,18 @@
+#editprofile{
+	padding: 20px 10px;
+}
+
+#editprofile h1{
+	font-family: Arial;
+	margin: auto;
+	padding: 10px;
+	margin: 5px;
+	font-size: 28px;
+	padding-top: 22px;
+}
+#uploadpic{
+	height: 80px;
+	background-color: #eee;
+	line-height: 80px;
+}
+
